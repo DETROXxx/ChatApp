@@ -1,0 +1,17 @@
+.dashboard-shell {
+  height: 100%;
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .dashboard-shell {
+    flex-direction: column;
+  }
+
+  .dashboard-shell .sidebar {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    max-height: 40vh;
+  }
+}
