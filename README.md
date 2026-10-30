@@ -142,23 +142,7 @@ cd ..
 
 ---
 
-## 🔐 Environment Variables
 
-Create an environment file for the backend configuration.
-
-Example:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
-
-> ⚠️ Never commit your `.env` file or expose your JWT secret or database credentials publicly.
-
-Make sure `.env` is included in your `.gitignore`.
-
----
 
 ## ▶️ Running the Application
 
